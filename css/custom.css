@@ -988,7 +988,7 @@ hr {
 
 /*全局页面宽度*/
 /* 页面宽度修改 */
-.layout {
+/*.layout {
 	max-width: 1400px;
 }  
 .layout.hide-aside {
@@ -998,3 +998,4 @@ hr {
 	max-width: 312px;
 	min-width: 300px;
 }
+*/

@@ -1,6 +1,7 @@
-//js有一个小问题：就是只要鼠标滚动不论哪里都会响应，即便你滚动的是子元素
-
-//2022.9.11 已修复，需要jq，请自行引入
+document.addEventListener('pjax:complete', tonav);
+document.addEventListener('DOMContentLoaded', tonav);
+//响应pjax
+function tonav(){
 document.getElementById("name-container").setAttribute("style", "display:none");
 
 var position = $(window).scrollTop();
@@ -32,8 +33,10 @@ function scrollToTop(){
     btf.scrollToDest(0, 500);
 }
 //修复没有弄右键菜单的童鞋无法回顶部的问题
-document.getElementById("page-name").innerText = document.title.split(" | Ariasakaの小窝")[0];
-/*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：
-document.getElementById("page-name").innerText=document.title
+document.getElementById("page-name").innerText = document.title.split(" | Ariasakaの小窝")[0];}
 
-或者把你的网站的分隔符和全局网站名称加上去*/
+
+作者: Ariasaka
+链接: https://yisous.xyz/posts/895003b5/#%E6%98%BE%E7%A4%BA%E6%A0%87%E9%A2%98
+来源: Ariasakaの小窝
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

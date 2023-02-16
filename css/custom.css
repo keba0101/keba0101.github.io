@@ -969,3 +969,9 @@ hr {
 .newPost-right {
     right: 15px;
 }
+
+/*加载动画*/
+.loading-img {
+  background: /img/siteicon/android-chrome-256x256.png;
+  background-size: cover;
+}

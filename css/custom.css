@@ -975,3 +975,26 @@ hr {
     padding: 0 20px;
 }
 
+/*Toc 目录模糊效果*/
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {  /* 未选中不透明度 */
+  opacity: .6;
+  cursor: pointer;
+  filter: blur(1px); 
+  transition: .3s;
+}
+#aside-content #card-toc .toc-content .toc-link.active {
+  border-radius: 6px;
+}
+
+/*全局页面宽度*/
+/* 页面宽度修改 */
+.layout {
+	max-width: 1400px;
+}  
+.layout.hide-aside {
+	max-width: 1400px;
+}  
+.aside-content {
+	max-width: 312px;
+	min-width: 300px;
+}

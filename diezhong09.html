@@ -265,7 +265,7 @@
       loadTwikoo()
     }
   }
-})()</script></div><div class="app-refresh" id="app-refresh" style="position: fixed;top: 4.1rem;left: 0;right: 0;z-index: 99999;padding: 0 1rem;font-size: 15px;height: 2.2rem;transition: all 0.3s ease;"><div class="app-refresh-wrap" style=" display: flex;color: #ffffff;height: 100%;align-items: center;justify-content: center;"><label> </label><a href="javascript:void(0)" onclick="location.reload()"><span style="color: #2d587a;text-decoration: underline;cursor: pointer;"> </span></a></div></div><script>if ('serviceWorker' in navigator) {
+})()</script></div><div class="app-refresh" id="app-refresh" style="position: fixed;top: 4.1rem;left: 0;right: 0;z-index: 99999;padding: 0 1rem;font-size: 15px;height: 2.2rem;transition: all 0.3s ease;"><div class="app-refresh-wrap" style=" display: flex;color: #2d587a;height: 100%;align-items: center;justify-content: center;"><label> </label><a href="javascript:void(0)" onclick="location.reload()"><span style="color: #2d587a;text-decoration: underline;cursor: pointer;"> </span></a></div></div><script>if ('serviceWorker' in navigator) {
 if (navigator.serviceWorker.controller) {
 navigator.serviceWorker.addEventListener('controllerchange', function() {
 showNotification()
@@ -283,7 +283,7 @@ GLOBAL_CONFIG.Snackbar.bgLight :
 GLOBAL_CONFIG.Snackbar.bgDark
 var snackbarPos = GLOBAL_CONFIG.Snackbar.position
 Snackbar.show({
-text: '✨ 磕巴的更新',
+text: '✨ 磕巴更新啦！',
 backgroundColor: '#ffffff',
 duration: 500000,
 pos: snackbarPos,
@@ -296,8 +296,8 @@ location.reload()
 } else {
 var showBg =
 document.documentElement.getAttribute('data-theme') === 'light' ?
-'#ffffff' :
-'#ffffff'
+'#2d587a' :
+'#2d587a'
 var cssText = `top: 0; background: ${showBg};`
 document.getElementById('app-refresh').style.cssText = cssText
 }

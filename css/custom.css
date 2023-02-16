@@ -972,6 +972,6 @@ hr {
 
 /*加载动画*/
 .loading-img {
-  background-image: (/img/siteicon/android-chrome-256x256.png);
+  background: url(/img/siteicon/android-chrome-256x256.png);
   background-size: cover;
 }

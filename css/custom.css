@@ -987,7 +987,7 @@ hr {
     --ichika-green: #2d587a;
     --ichika-purple: #2d587a;
     --ichika-light-grey: #2d587a;
-    --ichika-card-bg: rgba(255,255,255,0.45);
+    --ichika-card-bg: #ffffff;
     --ichika-emphasis-color: #2d587a;
     --ichika-bgblur: blur(10px);
     --ichika-footer-bg: #ffffff;
@@ -999,7 +999,7 @@ hr {
     --global-bg:black;
     --ichika-color: #1688C9;
     --ichika-widget-hover: #1B6587;
-    --ichika-card-bg: rgba(0,0,0,0.7);
+    --ichika-card-bg: #000000;
     --ichika-footer-bg: #000000;
     --ichika-font-grey: #BBBBBB;
     --ichika-categorycard-bg: #000000

@@ -69,7 +69,7 @@ h1.post-title {
 }
 
 /*夜间模式伪类遮罩层透明*/
-[data-theme="dark"] #recent-posts > .recent-post-item {
+/*[data-theme="dark"] #recent-posts > .recent-post-item {
   background: #121212;
 }
 
@@ -99,7 +99,7 @@ h1.post-title {
 
 [data-theme="dark"] div#category {
   background: transparent !important;
-}
+}*/
 /* 页脚透明 */
 #footer {
   background: transparent !important;
@@ -881,8 +881,8 @@ hr {
 
 #aside-content .card-widget {
     background: var(--light_bg_color)
-}*/
-
+}
+*/
 /*页码*/
 #pagination .page-number.current {
     color: var(--white);
@@ -1000,16 +1000,13 @@ hr {
     --global-bg:black;
     --ichika-color: #2d587a;
     --ichika-widget-hover: #2d587a;
-    --ichika-card-bg: #000000;
-    --ichika-footer-bg: #000000;
+    --ichika-card-bg: #121212;
+    --ichika-footer-bg: #121212;
     --ichika-font-grey: #BBBBBB;
-    --ichika-categorycard-bg: #000000
+    --ichika-categorycard-bg: #121212
 }
 
 /* 归档、标签、分类页 */
-.layout.hide-aside{
-    max-width:1200px;
-}
 
 #archive,#tag,#category {
     background: var(--ichika-card-bg);
@@ -1187,6 +1184,5 @@ hr {
         width:90px;
     }
 }
-
 
 

@@ -992,7 +992,7 @@ hr {
     --ichika-bgblur: blur(10px);
     --ichika-footer-bg: linear-gradient(to bottom,transparent 0%,rgba(255,255,255,0.7) 40%);
     --ichika-font-grey: #888888;
-    --ichika-categorycard-bg: linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,1))
+    --ichika-categorycard-bg: #ffffff
 }
 
 [data-theme='dark'] {
@@ -1002,7 +1002,7 @@ hr {
     --ichika-card-bg: rgba(0,0,0,0.7);
     --ichika-footer-bg: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,0.7) 40%);
     --ichika-font-grey: #BBBBBB;
-    --ichika-categorycard-bg:linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,1))
+    --ichika-categorycard-bg: #000000
 }
 
 /* 归档、标签、分类页 */

@@ -997,8 +997,8 @@ hr {
 
 [data-theme='dark'] {
     --global-bg:black;
-    --ichika-color: #1688C9;
-    --ichika-widget-hover: #1B6587;
+    --ichika-color: #2d587a;
+    --ichika-widget-hover: #2d587a;
     --ichika-card-bg: #000000;
     --ichika-footer-bg: #000000;
     --ichika-font-grey: #BBBBBB;

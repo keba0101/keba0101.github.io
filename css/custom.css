@@ -976,6 +976,35 @@ hr {
   background-size: cover;
 }
 
+/*css变量参考*/
+:root {
+    --ichika-color: #49A6E9;
+    --ichika-hover-color: #ECAFFF;
+    --ichika-widget-hover: #CFF0FF;
+    --ichika-font-white: #FDFDFD;
+    --ichika-light-green: #B2FFCA;
+    --ichika-light-purple: #F6B9FF;
+    --ichika-green: #11D991;
+    --ichika-purple: #E764FF;
+    --ichika-light-grey: #F2F2F2;
+    --ichika-card-bg: rgba(255,255,255,0.45);
+    --ichika-emphasis-color: #F7F81A;
+    --ichika-bgblur: blur(10px);
+    --ichika-footer-bg: linear-gradient(to bottom,transparent 0%,rgba(255,255,255,0.7) 40%);
+    --ichika-font-grey: #888888;
+    --ichika-categorycard-bg: linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,1))
+}
+
+[data-theme='dark'] {
+    --global-bg:black;
+    --ichika-color: #1688C9;
+    --ichika-widget-hover: #1B6587;
+    --ichika-card-bg: rgba(0,0,0,0.7);
+    --ichika-footer-bg: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,0.7) 40%);
+    --ichika-font-grey: #BBBBBB;
+    --ichika-categorycard-bg:linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,1))
+}
+
 
 /* 归档、标签、分类页 */
 .layout.hide-aside{

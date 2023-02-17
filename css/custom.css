@@ -978,17 +978,17 @@ hr {
 
 /*css变量*/
 :root {
-    --ichika-color: #49A6E9;
-    --ichika-hover-color: #ECAFFF;
-    --ichika-widget-hover: #CFF0FF;
+    --ichika-color: #2d587a;
+    --ichika-hover-color: #2d587a;
+    --ichika-widget-hover: #2d587a;
     --ichika-font-white: #FDFDFD;
-    --ichika-light-green: #B2FFCA;
-    --ichika-light-purple: #F6B9FF;
-    --ichika-green: #11D991;
-    --ichika-purple: #E764FF;
-    --ichika-light-grey: #F2F2F2;
+    --ichika-light-green: #2d587a;
+    --ichika-light-purple: #2d587a;
+    --ichika-green: #2d587a;
+    --ichika-purple: #2d587a;
+    --ichika-light-grey: #2d587a;
     --ichika-card-bg: rgba(255,255,255,0.45);
-    --ichika-emphasis-color: #F7F81A;
+    --ichika-emphasis-color: #2d587a;
     --ichika-bgblur: blur(10px);
     --ichika-footer-bg: linear-gradient(to bottom,transparent 0%,rgba(255,255,255,0.7) 40%);
     --ichika-font-grey: #888888;

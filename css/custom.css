@@ -934,20 +934,6 @@ hr {
   border-radius: 6px;
 }
 
-/*全局页面宽度*/
-/* 页面宽度修改 */
-/*.layout {
-	max-width: 1400px;
-}  
-.layout.hide-aside {
-	max-width: 1400px;
-}  
-.aside-content {
-	max-width: 312px;
-	min-width: 300px;
-}
-*/
-
 #recent-posts>.recent-post-item {
     position: relative;
 }
@@ -1348,12 +1334,12 @@ hr {
 }
 */
 /*手机端菜单*/
-#sidebar #sidebar-menus.open {
+/*#sidebar #sidebar-menus.open {
   background-image: linear-gradient(to bottom, #00416a, #e4e5e6);
 }
 #sidebar #menu-mask {
   background: #ffffff7e;
-}
+}*/
 
 /*作者卡片*/
 /* 侧边栏作者卡片动态渐变色 */
@@ -1443,3 +1429,41 @@ hr {
 #post-info #post-meta {
   color: #000bff;
 }*/
+
+/*宽屏适配*/
+.aside-content{
+    max-width:312px;
+    min-width:300px;
+}
+.recent-posts{
+  width:auto!important;
+}
+
+@media screen and (max-width: 900px){
+    .aside-content{
+        max-width:none!important;
+    }
+}
+
+#archive,#page,#category,#tag{
+    width:100%;
+}
+.page:not(.page.home) .aside-content{
+    display: none;
+}
+
+/*全局页面宽度*/
+/* 页面宽度修改 */
+.layout {
+	max-width: 1180px;
+}  
+.layout.hide-aside {
+	max-width: 1180px;
+}  
+.aside-content {
+	max-width: 312px;
+	min-width: 300px;
+}
+
+
+

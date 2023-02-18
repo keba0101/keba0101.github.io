@@ -1349,7 +1349,7 @@ hr {
 */
 /*手机端菜单*/
 #sidebar #sidebar-menus.open {
-  background-image: linear-gradient(25deg, #4f73cd, #919fde, #c9ceef, #d7eafc);
+  background-image: linear-gradient(to bottom, #00416a, #e4e5e6);
 }
 #sidebar #menu-mask {
   background: #ffffff7e;
@@ -1421,11 +1421,25 @@ hr {
 }*/
 
 /* 头图不全屏 */
-#page-header.full_page {
+/*#page-header.full_page {
     height: 40vh !important;
     background-attachment: fixed !important;
 }
 
 #web_bg {
     background-attachment: fixed !important;
+}*/
+
+/* 适配浅色背景的深色标题 */
+/*#page-header #site-title {
+    color: black;
 }
+#page-header #site-subtitle {
+  color: black;
+}
+#post-info .post-title {
+  color: #000;
+}
+#post-info #post-meta {
+  color: #000bff;
+}*/

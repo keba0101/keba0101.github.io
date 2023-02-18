@@ -1455,10 +1455,10 @@ hr {
 /*全局页面宽度*/
 /* 页面宽度修改 */
 .layout {
-	max-width: 1180px;
+	max-width: 1200px;
 }  
 .layout.hide-aside {
-	max-width: 1180px;
+	max-width: 1200px;
 }  
 .aside-content {
 	max-width: 312px;

@@ -55,12 +55,12 @@ document.addEventListener('DOMContentLoaded', function () {
   /**
    * 首頁top_img底下的箭頭
    */
-  const scrollDownInIndex = () => {
+  /*const scrollDownInIndex = () => {
     const $scrollDownEle = document.getElementById('scroll-down')
     $scrollDownEle && $scrollDownEle.addEventListener('click', function () {
       btf.scrollToDest(document.getElementById('content-inner').offsetTop, 300)
     })
-  }
+  }*/
 
   /**
    * 代碼
@@ -324,6 +324,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const currentTop = window.scrollY || document.documentElement.scrollTop
       const isDown = scrollDirection(currentTop)
       if (currentTop > 56) {
+        $header.classList.add('is-top-bar')
         if (isDown) {
           if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
           if (isChatBtnShow && isChatShow === true) {
@@ -343,7 +344,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       } else {
         if (currentTop === 0) {
-          $header.classList.remove('nav-fixed', 'nav-visible')
+          $header.classList.remove('is-top-bar')
         }
         $rightside.style.cssText = "opacity: ''; transform: ''"
       }

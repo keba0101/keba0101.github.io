@@ -330,9 +330,9 @@
 }
 
 /* 顶部样式 */
-/*.author-content.author-content-item.essayPage {
+.author-content.author-content-item.essayPage {
   height: 19rem;
-  background: url(/img/6560d9bb5f76497192d22bc4f39a9bc2.png) left 28% / cover no-repeat;
+  background: url(/img/dab620afbe0941a0ae34b59bf5195e29.jpg) left 28% / cover no-repeat;
   color: var(--anzhiyu-white);
   border-radius: 20px;
   overflow: hidden;
@@ -342,7 +342,7 @@
   color: var(--anzhiyu-white);
   border-radius: 20px !important;
 }
-*/
+
 /* 响应式 */
 @media screen and (max-width: 1300px) {
   #bber .timeline ul li.bber-item {

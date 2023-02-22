@@ -163,7 +163,7 @@
   position: relative;
   width: 32%;
   border: var(--style-border-always);
-  border-radius: 12px;
+  border-radius: 25px;
   padding: 1rem 1rem 0.5rem;
   transition: all 0.3s ease 0s;
   display: flex;
@@ -220,7 +220,7 @@
   font-size: 0.7rem;
   background-color: var(--anzhiyu-gray-op);
   padding: 0px 8px;
-  border-radius: 20px;
+  border-radius: 25px;
   cursor: default;
   display: flex;
   align-items: center;
@@ -257,7 +257,7 @@
   background-color: #2d587a;
   color: #2d587a;
   padding: 0px 8px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 #bber .bber-content-link i {
   margin-right: 3px;
@@ -310,17 +310,17 @@
 #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
   background: #2d587a;
   height: 8px;
-  border-radius: 12px;
+  border-radius: 25px;
   transition: 0.3s;
   overflow: hidden;
 }
 #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
   height: 100%;
-  border-radius: 12px;
+  border-radius: 25px;
 }
 #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
   height: 100%;
-  border-radius: 12px;
+  border-radius: 25px;
 }
 #bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
   display: none;

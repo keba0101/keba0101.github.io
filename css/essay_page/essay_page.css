@@ -244,7 +244,6 @@
 #bber .bber-bottom .bber-reply {
   cursor: url(/img/x2.cur), auto !important;
 }
-
 #bber .timeline ul li.bber-item:hover {
   border: var(--style-border-hover);
 }
@@ -266,7 +265,7 @@
   background-color: #2d587a;
   color: var(--anzhiyu-white);
 }
-#bber .bber-music {
+/*#bber .bber-music {
   width: 100%;
   height: 90px;
   margin: 0.5rem 0;
@@ -328,13 +327,13 @@
 #bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
   position: initial;
 }
-
+*/
 /* 顶部样式 */
 .author-content.author-content-item.essayPage {
   height: 19rem;
   background: url(/img/77.jpg) left 28% / cover no-repeat;
   color: var(--anzhiyu-white);
-  border-radius: 20px;
+  border-radius: 25px;
   overflow: hidden;
   margin-top: 0px;
 }

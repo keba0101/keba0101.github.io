@@ -886,15 +886,13 @@ hr {
         font-size: 13px;
     }
 }
-
+*/
 #recent-posts>.recent-post-item {
     position: relative;
 }
-*/
-
 
 /* 最新文章图标 */
-/*.newPost-left,
+.newPost-left,
 .newPost-right {
     position: absolute;
     top: 0;
@@ -910,7 +908,7 @@ hr {
 
 .newPost-right {
     right: 15px;
-}*/
+}
 
 /*加载动画*/
 .loading-img {

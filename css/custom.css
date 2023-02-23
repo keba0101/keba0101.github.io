@@ -879,35 +879,12 @@ hr {
 }
 
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
-/*@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #aside_content
     div:not(:last-child) {
         display: none;
         font-size: 13px;
     }
-}
-*/
-#recent-posts>.recent-post-item {
-    position: relative;
-}
-
-/* 最新文章图标 */
-.newPost-left,
-.newPost-right {
-    position: absolute;
-    top: 0;
-    color: white;
-    padding: 0 15px;
-    background-color: #2d587a;
-    border-radius: 0 0 10px 10px;
-}
-
-.newPost-left {
-    left: 15px;
-}
-
-.newPost-right {
-    right: 15px;
 }
 
 /*加载动画*/

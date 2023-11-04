@@ -1299,8 +1299,8 @@ hr {
     background: 0;
     color: var(--icat-fontcolor) !important;
     cursor: pointer;
-    content: "\e038" !important;
-    font-family: "iconfont" !important;
+    /*content: "\e038" !important;
+    font-family: "iconfont" !important;*/
     opacity: 0.4;
     padding-top: 2px;
     padding-right: 2px;
@@ -1343,8 +1343,8 @@ hr {
 #page .tag-cloud-list a:before {
     color: var(--icat-fontcolor) !important;
     cursor: pointer;
-    content: "\e038" !important;
-    font-family: "iconfont" !important;
+    /*content: "\e038" !important;
+    font-family: "iconfont" !important;*/
     opacity: 0.4;
     padding-top: 2px;
     padding-right: 2px;
@@ -1383,7 +1383,7 @@ hr {
   color: var(--icat-white);
   overflow: hidden;
   margin-top: 0;
-  border-radius: 12px;
+  border-radius: 25px;
   border: var(--style-border-always);
   box-shadow: var(--icat-shadow-border);
 }

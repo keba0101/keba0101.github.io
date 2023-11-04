@@ -512,7 +512,7 @@ li.card-archive-list-item {
 */
 
 /*顶栏常驻*/
-/*.nav-fixed #nav{
+.nav-fixed #nav{
     transform: translateY(58px)!important;
     -webkit-transform: translateY(58px)!important;
     -moz-transform: translateY(58px)!important;
@@ -528,7 +528,7 @@ li.card-archive-list-item {
 }
 
 }
-*/
+
 /* 侧边栏个人信息卡片动态渐变色 */
 /*#aside-content > .card-widget.card-info {
   background: linear-gradient(
@@ -1465,3 +1465,4 @@ hr {
 /* 响应式 */
 
 /* icat-page顶部样式 */
+

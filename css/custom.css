@@ -48,7 +48,7 @@ h1.post-title {
 */
 /*安知鱼*/
 /* 颜色 */
-:root {
+/*:root {
   --anzhiyu-theme-op: #4259ef23;
   --anzhiyu-gray-op: #9999992b;
   --anzhiyu-theme-top: var(--anzhiyu-theme);
@@ -142,7 +142,7 @@ h1.post-title {
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #42444a;
 }
-
+*/
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 #page-header:not(.not-top-img):before {
   background-color: transparent !important;
@@ -281,8 +281,8 @@ h1.post-title {
   width: 40px;
   height: 40px;
   border-radius: 25px;
-  background-color: #f1f1f1;
-  color: #2d587a;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   line-height: 40px;
@@ -512,7 +512,7 @@ li.card-archive-list-item {
 */
 
 /*顶栏常驻*/
-.nav-fixed #nav{
+/*.nav-fixed #nav{
     transform: translateY(58px)!important;
     -webkit-transform: translateY(58px)!important;
     -moz-transform: translateY(58px)!important;
@@ -528,7 +528,7 @@ li.card-archive-list-item {
 }
 
 }
-
+*/
 /* 侧边栏个人信息卡片动态渐变色 */
 /*#aside-content > .card-widget.card-info {
   background: linear-gradient(
@@ -599,6 +599,7 @@ li.card-archive-list-item {
 
 #web_bg {
 	/*background-image: url(/img/875c3c7f2e8440d9b09d36a3b2f87d8a.jpg);*/
+	background-image: url(/img/09fa513d269759ee2301e5466908c91e6f22dfe2.jpeg);
     /*background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);*/
 	/*background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);*/
 	/*background-image: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);*/
@@ -622,7 +623,7 @@ li.card-archive-list-item {
 
 /* 版权信息 */
 /* 背景 */
-#post .post-copyright {
+/*#post .post-copyright {
   background: var(--heo-card-bg);
   padding: 2rem 1.3rem;
   overflow: hidden;
@@ -689,10 +690,10 @@ li.card-archive-list-item {
     display: none;
   }
 }
-
+*/
 
 /* 作者名 */
-#post .post-copyright .post-copyright-info a {
+/*#post .post-copyright .post-copyright-info a {
   padding: 0;
   color: var(--heo-fontcolor);
   font-weight: bold;
@@ -756,9 +757,9 @@ li.card-archive-list-item {
     line-height: 1.2;
   }
 }
-
+*/
 /* 链接 */
-#post>div.post-copyright>div.post-copyright__type {
+/*#post>div.post-copyright>div.post-copyright__type {
   line-height: 16px;
   display: flex;
   margin-top: 8px;
@@ -780,15 +781,15 @@ li.card-archive-list-item {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-}
+}*/
 /* 提示 */
-#post>div.post-copyright>div.post-copyright__notice {
+/*#post>div.post-copyright>div.post-copyright__notice {
   font-size: 0.7rem;
   line-height: 1rem;
   margin: 0.5rem 0;
-}
+}*/
 /*装饰圈*/
-#post .post-copyright:before {
+/*#post .post-copyright:before {
   display: none;
 }
 
@@ -801,7 +802,7 @@ li.card-archive-list-item {
     border-radius: 11px;
     border-style: solid;
 }
-
+*/
 /* 右侧小按钮圆角 */
 /*#rightside>div>button,#to_comment {
     margin-right: 4px;
@@ -810,22 +811,22 @@ li.card-archive-list-item {
 
 /*侧边滑动颜色*/
 :root {
-    --btn-bg: #2d587a;
+    --btn-bg: #000000;
 }
 
 /*本地搜索美化*/
 .search-dialog .search-nav {
-    color: #2d587a;
+    color: #000000;
     font-size: 1.6em;
     line-height: 2;
 }
 #local-search .search-dialog .local-search-box input {
   padding: 13px 21px;
-  border: 3px solid #2d587a;
+  border: 3px solid #000000;
   border-radius: 11px;
 }
 hr {
-  border: 3px dashed #2d587a;
+  border: 3px dashed #000000;
 }
 
 
@@ -858,8 +859,8 @@ hr {
     background: var(--light-text);
 }
 #pagination .page-number.current {
-    background: #2d587a;
-    color: var(--white);
+    background: #white;
+    color: var(--black);
 }
 
 #pagination .page-number, #pagination a.extend, #pagination span {
@@ -923,7 +924,7 @@ hr {
 }
 
 /* 归档、标签、分类页 */
-
+/*
 #archive,#tag,#category {
     background: var(--ichika-card-bg);
     padding: 25px 10px;
@@ -1100,7 +1101,7 @@ hr {
         width:90px;
     }
 }
-
+*/
 
 /* 侧边栏颜色&悬浮 */
 /*#aside-content .card-widget {

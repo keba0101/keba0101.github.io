@@ -1406,6 +1406,7 @@ hr {
   font-size: 36px;
   font-weight: bold;
   line-height: 1;
+  color: white;
 }
 .icat-content-item .icat-content-bottom {
   margin-top: auto;
@@ -1419,6 +1420,7 @@ hr {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: white;
 }
 .icat-content-item .icat-card-content .icat-change-button-group .icat-change-button {
   height: 40px;

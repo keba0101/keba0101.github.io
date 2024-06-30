@@ -598,7 +598,9 @@ li.card-archive-list-item {
 
 
 #web_bg {
-	/*background-image: url(/img/boston-2435621_1280.jpg);*/
+	/*background-image: url(/img/1234567.jpg);*/
+	background: linear-gradient(to right, #bbd2c5, #536976);
+	/*background: linear-gradient(to right, #616161, #9bc5c3);*/
 	/*background-image: url(/img/09fa513d269759ee2301e5466908c91e6f22dfe2.jpeg);*/
     /*background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);*/
 	/*background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);*/
@@ -880,20 +882,20 @@ hr {
 }
 
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     #aside_content
     div:not(:last-child) {
         display: none;
         font-size: 13px;
     }
 }
-
+*/
 /*加载动画*/
-.loading-img {
+/*.loading-img {
   background: url(/img/siteicon/android-chrome-256x256.png);
   background-size: cover;
 }
-
+*/
 /*css变量*/
 :root {
     --ichika-color: #2d587a;

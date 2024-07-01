@@ -834,17 +834,17 @@ hr {
 
 
 /*文章页卡片宽幅占比*/
-.layout {
+/*.layout {
             max-width: 1280px;
       }
-
+*/
 /*文章分页卡片美化*/
-#pagination .prev-post a, #pagination .next-post a {
+/*#pagination .prev-post a, #pagination .next-post a {
   border-style: ridge;
   border-width: 8px;
   border-color: #d2d2d2;
 }
-
+*/
 
 /*全局背景透明渐变*/
 /*#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
@@ -1225,7 +1225,7 @@ hr {
 }*/
 
 /*宽屏适配*/
-.aside-content{
+/*.aside-content{
     max-width:312px;
     min-width:300px;
 }
@@ -1245,7 +1245,7 @@ hr {
 .page:not(.page.home) .aside-content{
     display: none;
 }
-
+*/
 /*全局页面宽度*/
 /* 页面宽度修改 */
 .layout {
@@ -1261,7 +1261,7 @@ hr {
 
 
 /* 分类页样式 */
-
+/*
 .category-lists .category-list {
     text-align: center;
     display: flex;
@@ -1302,8 +1302,8 @@ hr {
     background: 0;
     color: var(--icat-fontcolor) !important;
     cursor: pointer;
-    /*content: "\e038" !important;
-    font-family: "iconfont" !important;*/
+    content: "\e038" !important;
+    font-family: "iconfont" !important;
     opacity: 0.4;
     padding-top: 2px;
     padding-right: 2px;
@@ -1324,9 +1324,9 @@ hr {
 .category-lists .category-list .category-list-count:after {
     content: '';
 }
-
+*/
 /* 标签页样式 */
-#page .tag-cloud-list {
+/*#page .tag-cloud-list {
     margin: 5em 0 3em;
 }
 #page .tag-cloud-list a {
@@ -1346,8 +1346,8 @@ hr {
 #page .tag-cloud-list a:before {
     color: var(--icat-fontcolor) !important;
     cursor: pointer;
-    /*content: "\e038" !important;
-    font-family: "iconfont" !important;*/
+    content: "\e038" !important;
+    font-family: "iconfont" !important;
     opacity: 0.4;
     padding-top: 2px;
     padding-right: 2px;
@@ -1379,6 +1379,7 @@ hr {
 #web_bg ~ .page:has(#icat_page) {
   background: var(--card-bg);
 }
+*/
 /* page背景调整 */
 
 .icat-content.icat-content-item.icatPage {

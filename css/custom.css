@@ -812,10 +812,10 @@ li.card-archive-list-item {
   }*/
 
 /*侧边滑动颜色*/
-:root {
+/*:root {
     --btn-bg: #000000;
 }
-
+*/
 /*本地搜索美化*/
 .search-dialog .search-nav {
     color: #000000;

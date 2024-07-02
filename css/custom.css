@@ -295,8 +295,8 @@ h1.post-title {
   width: 2.5em;
   height: 2.5em;
   line-height: 2.5em;
-}*/
-
+}
+*/
 /*文章卡片圆角*/
 .layout > div:first-child:not(.recent-posts) {
   border-radius: 35px;
@@ -856,7 +856,7 @@ hr {
 }
 */
 /*页码*/
-#pagination .page-number.current {
+/*#pagination .page-number.current {
     color: var(--white);
     background: var(--light-text);
 }
@@ -879,8 +879,21 @@ hr {
     -ms-box-shadow: var(--box-shadow);
     -o-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
+}*/
+
+/*底部切换按钮*/
+.layout>.recent-posts .pagination>* {
+  display: inline-block;
+  margin: 0 6px;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
 }
 
+/*底部圆角*/
+#pagination .page-number.current {
+    border-radius: 7px;
+}
 /*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
 /*@media screen and (max-width: 800px) {
     #aside_content
